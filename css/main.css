@@ -612,6 +612,8 @@ h5 {
 #social-right a { min-height: 24px; color: #ffffff; display: inline-block; margin-top: 5px;}
 #social-right [class^="icon-"]:before, #social-right [class*=" icon-"]:before {font-size: 24px; min-height: 24px; }
 #social-right [class^="icon-"]:hover:before, #social-right [class*=" icon-"]:hover:before {color: rgba(255, 255, 255, 1.0); }
+#social-left a, #social-right a { margin-left: 4px; margin-right: 4px; }
+#social-left .svg-icon, #social-right .svg-icon { width: 22px; height: 22px; fill: currentColor; vertical-align: middle; margin: 0 4px; }
 #social-right:hover {background-color:#0B86C8; }
 #social-left:hover {background-color:#0B86C8; }
 #phone {visibility: hidden; }
